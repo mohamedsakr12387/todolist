@@ -1,0 +1,107 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(103, 158, 140);
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 20px;
+border-bottom: 3px solid #fff;
+
+}
+.icons{
+    font-size: 22px;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+.icons:hover{
+    font-size: 30px;
+}
+.icon-star:hover{
+    color: yellow;
+}
+.icon-angry2{
+    color: chocolate;
+    margin-left: 10px;
+}
+.icon-angry2:hover{
+    color: red;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+form{
+text-align: center;
+
+
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 20px;
+    transition: .3s;
+}
+input:hover{
+    box-shadow: 2px red ;
+    padding: 40px;
+    border: 2px red solid;
+}
+button{all: unset;}
+.icon-arrow-up2{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon-arrow-up2:hover{
+font-size: 30px;
+color: blue;
+}
+.none{
+    display: none;
+}
+.icon-heart {
+    color: red;
+    transition: .3s;
+}
+.icon-heart:hover{
+    font-size: 40px;
+}
+.text{
+    text-decoration: line-through;
+}
+.yellow {
+    color: yellow;
+    opacity: 2;
+}
+.made{
+    text-align: center;
+    margin-top: 30px;
+}
